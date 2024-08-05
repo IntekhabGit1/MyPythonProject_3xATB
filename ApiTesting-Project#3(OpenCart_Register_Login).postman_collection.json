@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "20c35d60-57f4-4981-b59c-5a85f884379a",
+		"name": "ApiTesting-Project#3(OpenCart_Register_Login)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29621029"
+	},
+	"item": [
+		{
+			"name": "RegisterPage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "cookie",
+						"value": "PHPSESSID=f40a5e8507d7314f3eb15122c2; cf_clearance=ODk7._xpK1WlyiNPvevZMzgczlwx5L0kFTWeGKOyQ54-1722840144-1.0.1.1-I8qyyP4Wk2zBo7kWGnb5gDHUgwpEUBuxsvXm2OdbvVET5dL3Mqi77Z5TU4nGYfNkfqa.H4TC11rjODTQyNzTsQ; _gid=GA1.2.1509864553.1722840145; _ga_X8G0BRFSDF=GS1.1.1722840145.2.1.1722840151.0.0.0; _ga=GA1.2.1327949624.1719424089; _gcl_au=1.1.133183750.1719424088.1543757130.1722840358.1722840394"
+					},
+					{
+						"key": "origin",
+						"value": "https://www.opencart.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.opencart.com/index.php?route=account/register"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+					},
+					{
+						"key": "sec-ch-ua-arch",
+						"value": "\"x86\""
+					},
+					{
+						"key": "sec-ch-ua-bitness",
+						"value": "\"64\""
+					},
+					{
+						"key": "sec-ch-ua-full-version",
+						"value": "\"127.0.6533.89\""
+					},
+					{
+						"key": "sec-ch-ua-full-version-list",
+						"value": "\"Not)A;Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"127.0.6533.89\", \"Chromium\";v=\"127.0.6533.89\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-model",
+						"value": "\"\""
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"15.0.0\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "desomawemu",
+							"type": "text"
+						},
+						{
+							"key": "firstname",
+							"value": "Xyla",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "Ball",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "byhafudu@mailinator.com",
+							"type": "text"
+						},
+						{
+							"key": "country_id",
+							"value": "22",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Pa$$0rd!",
+							"type": "text"
+						},
+						{
+							"key": "redirect",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.opencart.com/index.php?route=account/register&register_token=48020bf49fa8090c879632ab38",
+					"protocol": "https",
+					"host": [
+						"www",
+						"opencart",
+						"com"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "account/register"
+						},
+						{
+							"key": "register_token",
+							"value": "48020bf49fa8090c879632ab38"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoginPage",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cache-control",
+						"value": "max-age=0"
+					},
+					{
+						"key": "cookie",
+						"value": "PHPSESSID=f40a5e8507d7314f3eb15122c2; cf_clearance=ODk7._xpK1WlyiNPvevZMzgczlwx5L0kFTWeGKOyQ54-1722840144-1.0.1.1-I8qyyP4Wk2zBo7kWGnb5gDHUgwpEUBuxsvXm2OdbvVET5dL3Mqi77Z5TU4nGYfNkfqa.H4TC11rjODTQyNzTsQ; _gid=GA1.2.1509864553.1722840145; _gat_gtag_UA_1988725_1=1; _ga_X8G0BRFSDF=GS1.1.1722840145.2.1.1722841120.0.0.0; _ga=GA1.1.1327949624.1719424089; _gcl_au=1.1.133183750.1719424088.1543757130.1722840358.1722841163"
+					},
+					{
+						"key": "origin",
+						"value": "https://www.opencart.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=0, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://www.opencart.com/index.php?route=account/login"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+					},
+					{
+						"key": "sec-ch-ua-arch",
+						"value": "\"x86\""
+					},
+					{
+						"key": "sec-ch-ua-bitness",
+						"value": "\"64\""
+					},
+					{
+						"key": "sec-ch-ua-full-version",
+						"value": "\"127.0.6533.89\""
+					},
+					{
+						"key": "sec-ch-ua-full-version-list",
+						"value": "\"Not)A;Brand\";v=\"99.0.0.0\", \"Google Chrome\";v=\"127.0.6533.89\", \"Chromium\";v=\"127.0.6533.89\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-model",
+						"value": "\"\""
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"15.0.0\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "document"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "navigate"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "sec-fetch-user",
+						"value": "?1"
+					},
+					{
+						"key": "upgrade-insecure-requests",
+						"value": "1"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "byhafudu@mailinator.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Pa$$rd!",
+							"type": "text"
+						},
+						{
+							"key": "redirect",
+							"value": "https://www.opencart.com/index.php?route=account/account",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.opencart.com/index.php?route=account/login",
+					"protocol": "https",
+					"host": [
+						"www",
+						"opencart",
+						"com"
+					],
+					"path": [
+						"index.php"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "account/login"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
